@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Drag and Drop box</title>
+        <script type="text/javascript" src="../3-Sep-HTML Draga and Drop Iframe OOPs JS JSON(JS)/htmlDragAndDrop.js"></script>
+        <link rel="stylesheet" type="text/css" href="../3-Sep-HTML Draga and Drop Iframe OOPs JS JSON(CSS)/htmlDragAndDrop.css">
+	</head>
+
+	<body>
+		<div class = "gfg">GeeksforGeeks</div>
+		<p>Drag and drop of boxes</p>
+		<div id = "box">
+			<div id="box1" draggable="true"ondragstart="dragStart(event)"></div>
+			<div id="box2" draggable="true"ondragstart="dragStart(event)"></div>
+			<div id="box3" ondrop="dragDrop(event)" ondragover="allowDrop(event)"></div>
+		</div>
+	</body>
+</html>

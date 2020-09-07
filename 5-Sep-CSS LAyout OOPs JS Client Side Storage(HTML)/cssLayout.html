@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Layout</title>
+    <link rel="stylesheet" type="text/css" href="../5-Sep-CSS LAyout OOPs JS Client Side Storage(CSS)/cssLayout.css">
+</head>
+<body>
+<h1><center>CSS Layout</center></h1>
+    <p> First of all, individual element boxes are laid out by taking the elements' content,
+        then adding any padding, border and margin around them — it's that box model thing again,
+        which we've looked at earlier.</p>
+
+    <p>By default, a block level element's content is 100% of the width of its parent element, and
+        as tall as its content. Inline elements are as tall as their content, and as wide as their
+        content. You can't set width or height on inline elements — they just sit inside the content
+        of block level elements. If you want to control the size of an inline element in this manner,
+        you need to set it to behave like a block level element with display: block; (or even,display:
+        inline-block; which mixes characteristics from both.)</p>
+
+    <p>That explains individual elements, but what about how elements interact with one another? The
+        normal layout flow (mentioned in the layout introduction article) is the system by which elements
+        are placed inside the browser's viewport. By default, block-level elements are laid out in the
+        block flow direction, based on the parent's writing mode (initial: horizontal-tb) — each one will
+        appear on a new line below the last one, and they will be separated by any margin that is set on
+        them. In English therefore, or any other horizontal, top to bottom writing mode, block-level elements
+        are laid out vertically.</p>
+</body>
+</html>

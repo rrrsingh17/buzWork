@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../2-Day HTML,DOM Element HTML Events OOPS JS Functions Events(JS Files)/htmlFormEvents.js"></script>
+</head>
+<body>
+<h1><center>Sign Up Form</center></h1>
+<form action="" method="get" onsubmit="onSubmit()">
+Enter the name: <input id="name" onblur="onBlur()" onfocus="onFocus(this.id)" oninput="onInput(this.id)"
+                       onselect="alert('Some Data is selected')" oncopy="alert('You copied the text')"
+                        oncut="alert('you cut text')" onpaste="alert('you paste the text')"><br>
+Enter Mob.No.:<input id="mob" onfocus="onFocus(this.id)" oninput="onInput(this.id)" oninvalid="alert('Invalid Input')" required>
+<p>Select the Car</p>
+<select name="car" id="car" onchange="onChange()">
+    <option value="Audi">Audi</option>
+    <option value="BMW">BMW</option>
+    <option value="Volvo">Volvo</option>
+    <option value="Mercedes">Mercedes</option>
+</select>
+    <br>
+<button name="submit">Submit Details</button>
+    <button name="reset">Reset</button>
+</form>
+<div id="data"></div>
+<div id="onWrite"></div>
+</body>
+</html>
