@@ -1,0 +1,19 @@
+    .loginId,.password{
+    padding: 5px;
+    margin: 10px;
+    }
+    #fname{
+    margin-bottom: 6px;
+    margin-left: 30px;
+    }
+    #lname{
+    margin-left: 31px;
+    margin-bottom: 8px;
+    }
+    #cNumber{
+    margin-bottom: 9px;
+    }
+    #dname{
+    margin-left: 30px;
+    margin-bottom: 14px;
+    }

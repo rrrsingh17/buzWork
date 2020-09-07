@@ -1,0 +1,23 @@
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 10px;
+}
+.container {
+  column-width: 200px;
+  column-gap: 20px;
+  column-count:2;
+}
+
+.card {
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(79, 185, 227);
+  padding: 10px;
+  margin: 10px;
+
+}
+#card3{
+margin-top: 100px;
+}

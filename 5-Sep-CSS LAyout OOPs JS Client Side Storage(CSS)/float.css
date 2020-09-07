@@ -1,0 +1,36 @@
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container{
+margin-top: 50px;
+border: 2px solid black;
+padding: 15px;
+}
+.box {
+  float: left;
+  margin-right: 20px;
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: rgb(207,232,220);
+  padding: 1em;
+}
+.box2 {
+  float: right;
+  margin-right: 0px;
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: rgb(207,232,220);
+  margin-left:10px;
+  padding: 3px;
+}
+#special {
+  width:auto;
+  background-color: rgb(79,185,227);
+  padding: 10px;
+  margin-left:200px;
+  color: #fff;
+}

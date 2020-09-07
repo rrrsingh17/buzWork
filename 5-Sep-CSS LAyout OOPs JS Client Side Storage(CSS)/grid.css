@@ -1,0 +1,12 @@
+.container{
+display: grid;
+grid-template-columns: 55%;
+grid-template-rows: 25% 50% 50%;
+align-items: center;
+justify-content: center;
+}
+.block1, .block2, .block3{
+border: 2px solid black;
+padding: 10px;
+margin: -5px;
+}
